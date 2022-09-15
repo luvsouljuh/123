@@ -9,18 +9,9 @@
 </head>
 <body>
     <?php
-    $title = 'Strona główna';
+    $title = 'Powrót do strony głównej';
     ?>
-    <h1 style="text-align: center"> <?php echo $title; ?> </h1>
-
-    <ol style="list-style-type: decimal-leading-zero">
-        <li> <a href="syntax.php"> składnia </li>
-        <li> <a href="index.php"> podstrona2 </li>
-        <li> <a href="index.php"> podstrona3 </li>
-    </ol>
-
-
-
+    <h3> <a href="index.php"> <?php echo "$title";?> </h3>
 
 </body>
 </html>
