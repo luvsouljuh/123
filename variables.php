@@ -6,8 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Variables </title>
+    <link rel="stylesheet" href="others.css">
 </head>
 <body>
+    <?php
+    $title = 'Powrót do strony głównej';
+        ?>
+    <h3> <a href="index.php"> <?php echo "$title";?> </a> </h3>
     <h5> string (ciąg znaków) </h5>
     <?php
         $ciag_znakow = 'ciąg znaków';

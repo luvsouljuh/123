@@ -13,11 +13,12 @@
     $title = 'Strona główna';
     ?>
     <h1> <?php echo $title; ?> </h1>
-    </div>
 
     <ol>
         <li> <a href="syntax.php"> składnia </li>
         <li> <a href="variables.php"> zmienne </li>
+        <li> <a href="strings.php"> string </li>
+        <li> <a href="numbers.php"> liczby </li>
     </ol>
 
 
