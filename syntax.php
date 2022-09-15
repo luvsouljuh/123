@@ -11,7 +11,31 @@
     <?php
     $title = 'Powrót do strony głównej';
     ?>
-    <h3> <a href="index.php"> <?php echo "$title";?> </h3>
+    <h3> <a href="index.php"> <?php echo "$title";?> </a> </h3>
+
+    <h5> echo</h5>
+    <?php
+    echo 'dowolny tekst' , 'zlaczenie';
+    ?>
+    <br>
+    <?php
+    echo 'dowolny tekst' . 'zlaczenie';
+    ?>
+    <br>
+    <hr>
+    <h5> print</h5>
+    <?php
+    print 'dowolny tekst' . 'zlaczenie';
+    ?>
+    <br>
+    <?php
+    print ('dowolny tekst') . ('zlaczenie');
+    ?>
+    <br>
+    <hr>
+
+
+
 
 </body>
 </html>

@@ -11,12 +11,13 @@
     <?php
     $title = 'Strona główna';
     ?>
-    <h1 style="text-align: center"> <?php echo $title; ?> </h1>
+    <div id="baner">
+    <h1> <?php echo $title; ?> </h1>
+    </div>
 
     <ol style="list-style-type: decimal-leading-zero">
         <li> <a href="syntax.php"> składnia </li>
-        <li> <a href="index.php"> podstrona2 </li>
-        <li> <a href="index.php"> podstrona3 </li>
+        <li> <a href="variables.php"> zmienne </li>
     </ol>
 
 
