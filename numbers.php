@@ -85,6 +85,26 @@
         <?php
         echo PHP_FLOAT_EPSILON;
     ?>
+    <br>
+    <hr>
+    <h5> Dodawanie, odejmowanie, dzielenie, mnożenie oraz reszta dzielenia zmiennych </h5>
+        <?php
+            $x = 5;
+            $y = 15;
+            ?>
+    <a> Dodawanie: $x + $y = </a>
+    <?php
+        echo $x + $y;
+    ?>
+    <br>
+    </a>
+
+
+
+
+
+</body
+
 
 </body>
 </html>

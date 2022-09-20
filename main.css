@@ -1,12 +1,20 @@
 body {
     background-color: beige;
-    text-align: center;
-    font-size: 52px;
-    font-family: Arial;
+    font-size: 25px;
+    font-family: Monaco;
 }
-ol {
+
+#nagłowek {
+     text-align: left;
+     font-size: 11px;
+     margin-left: 20px;
+ }
+
+#głowna {
     list-style-type: decimal-leading-zero;
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
+    margin-left: 45%;
 
 }
+
