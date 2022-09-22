@@ -97,7 +97,146 @@
         echo $x + $y;
     ?>
     <br>
-    </a>
+    <a> Odejmowanie: $x - $y =</a>
+    <?php
+        echo $x - $y;
+        ?>
+    <br>
+    <a> Dzielenie: $x / $y = </a>
+    <?php
+        echo $x / $y;
+        ?>
+    <br>
+    <a> Mnożenie: $x * $y = </a>
+    <?php
+        echo $x * $y;
+        ?>
+    <br>
+    <a> Reszta z dzielenia zmiennych: $x % $y =</a>
+    <?php
+        echo $x % $y;
+        ?>
+    <br>
+    <hr>
+    <?php
+        $a = 4;
+        $b = 35;
+    ?>
+    <h5> Obliczenie pola i obwodu prostokąta </h5>
+    <a> Obwód: </a>
+    <?php
+        echo ($a * 2) + ($b * 2)
+    ?>
+    <br>
+    <a> Pole: </a>
+    <?php
+        echo $a * $b
+    ?>
+    <br>
+    <hr>
+    <h5> Funkcja "abs"  </h5>
+    <p style="background-color: aliceblue"
+        <?php
+            echo abs(-2000)
+        ?>
+    <br>
+    <hr>
+
+    <h5> Funkcje "min" i "max" </h5>
+    <p style="background-color: darkblue; color: aliceblue"> "min" dla zestawu liczb 0, 150, 30, 20, -8, -200 =
+        <?php
+            echo min(0, 150, 30, 20, -8, -200)
+            ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> "max" dla zestawu liczb 0, 150, 30, 20, -8, -200 =
+    <?php
+        echo max(0, 150, 30, 20, -8, -200)
+        ?>
+    </p>
+    <hr>
+    <h5> Funkcja " pi " </h5>
+    <p style="background-color: darkblue; color: aliceblue"> pi =
+    <?php
+        echo pi()
+        ?>
+    </p>
+    <hr>
+    <h5> Funkcja " round " dla liczb: </h5>
+    <p style="background-color: darkblue; color: aliceblue"> 3,4 =
+        <?php
+            echo round(3.4)
+        ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> 3,6 =
+        <?php
+        echo round(3.6)
+        ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> 5,045 =
+        <?php
+        echo round(5.045,2)
+        ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> 5,045 =
+        <?php
+        echo round(5.055,2)
+        ?>
+    </p>
+    <hr>
+    <h5> Funkcja " rand "  dla liczb z przedzialu od 900 do 1000</h5>
+    <p style="background-color: darkblue; color: aliceblue">
+        <?php
+         echo rand(900,1000)
+         ?>
+    </p>
+    <hr>
+    <h5> Funkcja " sqrt " dla liczb:</h5>
+    <p style="background-color: darkblue; color: aliceblue"> 0 =
+        <?php
+            echo sqrt(0)
+        ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> 64 =
+        <?php
+        echo sqrt(64)
+        ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> 256 =
+        <?php
+        echo sqrt(256)
+        ?>
+    </p>
+    <p style="background-color: darkblue; color: aliceblue"> 65536 =
+        <?php
+        echo sqrt(65536)
+        ?>
+    </p>
+    <hr>
+
+
+
+
+
+
+    <h5> </h5>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
 
 
 

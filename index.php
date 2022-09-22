@@ -17,10 +17,11 @@
     </div>
     <div id="głowna"
             <ol>
-                <li> <a href="syntax.php"> składnia </li>
-                <li> <a href="variables.php"> zmienne </li>
-                <li> <a href="strings.php"> string </li>
-                <li> <a href="numbers.php"> liczby </li>
+                <li> <a style="text-decoration: none" href="syntax.php"> składnia </a></li>
+                <li> <a style="text-decoration: none" href="variables.php"> zmienne </a></li>
+                <li> <a style="text-decoration: none" href="strings.php"> string </a></li>
+                <li> <a style="text-decoration: none" href="numbers.php"> liczby </a></li>
+                <li> <a style="text-decoration: none" href="conditionals.php"> instrukcje warunkowe </a></li>
             </ol>
 
     </div>
