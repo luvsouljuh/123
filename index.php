@@ -22,6 +22,9 @@
                 <li> <a style="text-decoration: none" href="strings.php"> string </a></li>
                 <li> <a style="text-decoration: none" href="numbers.php"> liczby </a></li>
                 <li> <a style="text-decoration: none" href="conditionals.php"> instrukcje warunkowe </a></li>
+                <li> <a style="text-decoration: none" href="loops.php"> pętle </a> </li>
+                <li> <a style="text-decoration: none" href="arrays.php"> tablice </a> </li>
+
             </ol>
 
     </div>
