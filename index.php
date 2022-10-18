@@ -24,6 +24,7 @@
                 <li> <a style="text-decoration: none" href="conditionals.php"> instrukcje warunkowe </a></li>
                 <li> <a style="text-decoration: none" href="loops.php"> pętle </a> </li>
                 <li> <a style="text-decoration: none" href="arrays.php"> tablice </a> </li>
+                <li> <a style="text-decoration: none" href="form.php"> formularz </a> </li>
 
             </ol>
 
