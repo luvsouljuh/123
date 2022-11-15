@@ -3,3 +3,9 @@ body {
     font-family: Arial;
     font-size: 18px
 }
+
+.tabela, th, td {
+    border: black 2px solid;
+    border-collapse: collapse;
+
+}
