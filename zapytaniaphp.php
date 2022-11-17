@@ -42,15 +42,17 @@ if (mysqli_num_rows($result) > 0) {
     echo 'Brak danych';
 }
 ?>
-
+<br>
 <?php
-$query2 = "select pracownicy.Imie, pracownicy.Nazwisko, pracownicy.wynagrodzenie, stanowiska.Nazwa from pracownicy inner join stanowiska on pracownicy.Id_stanowisko = stanowiska.Id_stanowisko where pracownicy.wynagrodzenie > 2800;";
 
+$query2 = 'select ksiazki.Sygnatura, ksiazki.Tytul, ksiazki.Imie, ksiazki.Nazwisko, ksiazki.Wydawnictwo, ksiazki.Rok_wyd, ksiazki.Cena from ksiazki where ksiazki.Rok_wyd BETWEEN 1990 and 2011 and ksiazki.Wydawnictwo like "PWN" or ksiazki.Wydawnictwo like "Helion" order by ksiazki.Rok_wyd;';
+$result = mysqli_query($conn, $query2);
+$conn = mysqli_connect($servername, $username, $password, $database);
 if (mysqli_num_rows($result) > 0) {
     echo '<table class="tabela">';
-    echo '<tr> <th> Pracownik </th> <th> Stanowisko </th> <th> Data zatrudnienia </th> <th> Wynagrodzenie </th>';
-    while ($row = mysqli_fetch_assoc($result)) {
-        echo '<tr> <td>' . $row['Imie'] . ' ' . $row['Nazwisko'] . '</td><td>'
+    echo '<tr> <th> Sygnatura </th> <th> Tytuł </th> <th> Autor </th> <th> Wydawnictwo</th> <th> Rok wydania </th> <th> Cena </th> </tr>';
+    while($row = mysqli_fetch_assoc($result)) {
+        echo '<tr><td>' . $row['Sygnatura'] . '</td><td>' . $row['Tytul'] .  '</td> <td>' . $row['Imie'] . ' ' . $row['Nazwisko'] . '</td> <td>' . $row['Wydawnictwo'] . '</td><td>' . $row['Rok_wyd'] . '</td><td style="text-align: right ">' . explode('.', $row['Cena']) [0] . ' zł ' . explode('.', $row['Cena']) [1] . ' gr ';
     }
 }
 ?>
